@@ -1,7 +1,7 @@
-var text = document.getElementById("text");
-var shadow = "";
+const text = document.getElementById("text");
+let shadow = "";
 
-for (var i = 0; i < 500; i++) {
+for (let i = 0; i < 500; i++) {
    shadow += (shadow ? "," : "") + i * 1 + "px " + i * 1 + "px 0 #b85d1c";
 }
 text.style.textShadow = shadow;
